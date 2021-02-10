@@ -88,7 +88,7 @@ Step to run the app:
     {tag:tag name}
 
 
- 8) To update an event-(POST=> localhost:3001/event/{eventID})
+ 8) To update an event-(PUT=> localhost:3001/event/{eventID})
 
     choose body and then form-data in postman to pass 
     body values. All fields are optional </br>

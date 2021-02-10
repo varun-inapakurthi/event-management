@@ -10,7 +10,7 @@ Step to run the app:
     choose body and then form-data in postman to pass
     body values. All fields are optional
 
-    body:
+    body: </br>
      title = hello updated
 
      url = www.url.com
@@ -55,45 +55,45 @@ Step to run the app:
      tags[1] = tag2 </br>
 
  2) To get an event-(GET=> localhost:3001/event/{eventID})
-    example-localhost:3001/event/6022de012eef8725ac45ad07
+    example-localhost:3001/event/6022de012eef8725ac45ad07 </br>
     can get the event id after event creation
 
 
  3) To delete an event-(DELETE=> localhost:3001/event/{eventID})
-    example-localhost:3001/event/6022de012eef8725ac45ad07
+    example-localhost:3001/event/6022de012eef8725ac45ad07 </br>
     can get the event id after event creation
 
 
  4) To delete a speaker-(DELETE=> localhost:3001/event/speakers/{speakerID})
-    example-localhost:3001/event/speakers/60234641c86dee3de4e183e2
+    example-localhost:3001/event/speakers/60234641c86dee3de4e183e2 </br>
     can get the speaker id after event creation
 
 
  5) To delete a moderators-(DELETE=> localhost:3001/event/moderators/{speakerID})
-    example-localhost:3001/event/moderators/60234641c86dee3de4e183e2
+    example-localhost:3001/event/moderators/60234641c86dee3de4e183e2 </br>
     can get the moderator id after event creation
 
 
  6) To remove a organiser-(DELETE=> localhost:3001/event/organiser/{eventId})
-    example-localhost:3001/event/organiser/6023463cc86dee3de4e183e1
-    can get the event id after event creation
-    body:
+    example-localhost:3001/event/organiser/6023463cc86dee3de4e183e1 </br>
+    can get the event id after event creation </br>
+    body: </br>
     {organiser:organiser name}
 
 
  7) To remove a tag-(DELETE=> localhost:3001/event/tag/{eventId})
-    example-localhost:3001/event/tag/6023463cc86dee3de4e183e1
-    can get the event id after event creation
-    body:
+    example-localhost:3001/event/tag/6023463cc86dee3de4e183e1 </br>
+    can get the event id after event creation </br>
+    body: </br>
     {tag:tag name}
 
 
  8) To update an event-(POST=> localhost:3001/event/{eventID})
 
-    choose body and then form-data in postman to pass
-    body values. All fields are optional
+    choose body and then form-data in postman to pass 
+    body values. All fields are optional </br>
 
-        body:
+     body: </br>
      title = hello updated
 
      url = www.url.com

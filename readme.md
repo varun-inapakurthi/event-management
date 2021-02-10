@@ -23,36 +23,36 @@ Step to run the app:
 
      about = about testing
 
-     speakers[0][name] = speaker1
-     speakers[0][info] = speaker1 info
-     speakers = {select image for speaker1} (select key type=file)
+     speakers[0][name] = speaker1 </br>
+     speakers[0][info] = speaker1 info </br>
+     speakers = {select image for speaker1} (select key type=file) </br>
 
 
-     speakers[1][name] = speaker2
-     speakers[1][info] = speaker2 info
-     speakers = {select image for speaker2} (select key type=file)
+     speakers[1][name] = speaker2 </br>
+     speakers[1][info] = speaker2 info </br>
+     speakers = {select image for speaker2} (select key type=file) </br>
 
-     moderators[0][name] = moderators1
-     moderators[0][info] = moderators1 info
-     moderators = {select image for moderators1} (select key type=file)
+     moderators[0][name] = moderators1 </br>
+     moderators[0][info] = moderators1 info </br>
+     moderators = {select image for moderators1} (select key type=file) </br>
 
-     moderators[1][name] = moderators2
-     moderators[1][info] = moderators2 info
-     moderators = {select image for moderators2} (select key type=file)
+     moderators[1][name] = moderators2 </br>
+     moderators[1][info] = moderators2 info </br>
+     moderators = {select image for moderators2} (select key type=file) </br>
 
-     materialAndResource[info] = materialAndResource testing
-     materialAndResource[embededVideos][0] = www.youtube.com
-     materialAndResource[embededVideos][1] = www.youtube.com
-     images = {select images1} (select key type=file)
-     images = {select images..n} (select key type=file)
-     files = {select file1} (select key type=file)
-     files = {select file..n} (select key type=file)
+     materialAndResource[info] = materialAndResource testing </br>
+     materialAndResource[embededVideos][0] = www.youtube.com </br>
+     materialAndResource[embededVideos][1] = www.youtube.com </br>
+     images = {select images1} (select key type=file) </br>
+     images = {select images..n} (select key type=file) </br>
+     files = {select file1} (select key type=file) </br>
+     files = {select file..n} (select key type=file) </br>
 
-     organisedBy[0] = Organiser1
-     organisedBy[1] = Organiser1
+     organisedBy[0] = Organiser1 </br>
+     organisedBy[1] = Organiser1 </br>
 
-     tags[0] = tag1
-     tags[1] = tag2
+     tags[0] = tag1 </br>
+     tags[1] = tag2 </br>
 
  2) To get an event-(GET=> localhost:3001/event/{eventID})
     example-localhost:3001/event/6022de012eef8725ac45ad07
@@ -93,7 +93,7 @@ Step to run the app:
     choose body and then form-data in postman to pass
     body values. All fields are optional
 
-    body:
+        body:
      title = hello updated
 
      url = www.url.com
@@ -106,35 +106,34 @@ Step to run the app:
 
      about = about testing
 
-     speakers[0][name] = speaker1
-     speakers[0][info] = speaker1 info
-     speakers = {select image for speaker1} (select key type=file)
+     speakers[0][name] = speaker1 </br>
+     speakers[0][info] = speaker1 info </br>
+     speakers = {select image for speaker1} (select key type=file) </br>
 
 
-     speakers[1][name] = speaker2
-     speakers[1][info] = speaker2 info
-     speakers = {select image for speaker2} (select key type=file)
+     speakers[1][name] = speaker2 </br>
+     speakers[1][info] = speaker2 info </br>
+     speakers = {select image for speaker2} (select key type=file) </br>
 
-     moderators[0][name] = moderators1
-     moderators[0][info] = moderators1 info
-     moderators = {select image for moderators1} (select key type=file)
+     moderators[0][name] = moderators1 </br>
+     moderators[0][info] = moderators1 info </br>
+     moderators = {select image for moderators1} (select key type=file) </br>
 
-     moderators[1][name] = moderators2
-     moderators[1][info] = moderators2 info
-     moderators = {select image for moderators2} (select key type=file)
+     moderators[1][name] = moderators2 </br>
+     moderators[1][info] = moderators2 info </br>
+     moderators = {select image for moderators2} (select key type=file) </br>
 
-     materialAndResource[info] = materialAndResource testing
-     materialAndResource[embededVideos][0] = www.youtube.com
-     materialAndResource[embededVideos][1] = www.youtube.com
-     images = {select images1} (select key type=file)
-     images = {select images..n} (select key type=file)
-     files = {select file1} (select key type=file)
-     files = {select file..n} (select key type=file)
+     materialAndResource[info] = materialAndResource testing </br>
+     materialAndResource[embededVideos][0] = www.youtube.com </br>
+     materialAndResource[embededVideos][1] = www.youtube.com </br>
+     images = {select images1} (select key type=file) </br>
+     images = {select images..n} (select key type=file) </br>
+     files = {select file1} (select key type=file) </br>
+     files = {select file..n} (select key type=file) </br>
 
-     organisedBy[0] = Organiser1
-     organisedBy[1] = Organiser1
+     organisedBy[0] = Organiser1 </br>
+     organisedBy[1] = Organiser1 </br>
 
-     tags[0] = tag1
-     tags[1] = tag2
-
+     tags[0] = tag1 </br>
+     tags[1] = tag2 </br>
 

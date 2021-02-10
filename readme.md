@@ -54,34 +54,34 @@ Step to run the app:
      tags[0] = tag1 </br>
      tags[1] = tag2 </br>
 
- 2) To get an event-(GET=> localhost:3001/event/{eventID})
+ 2) To get an event-(GET=> localhost:3001/event/{eventID}) </br>
     example-localhost:3001/event/6022de012eef8725ac45ad07 </br>
     can get the event id after event creation
 
 
- 3) To delete an event-(DELETE=> localhost:3001/event/{eventID})
+ 3) To delete an event-(DELETE=> localhost:3001/event/{eventID}) </br>
     example-localhost:3001/event/6022de012eef8725ac45ad07 </br>
     can get the event id after event creation
 
 
- 4) To delete a speaker-(DELETE=> localhost:3001/event/speakers/{speakerID})
+ 4) To delete a speaker-(DELETE=> localhost:3001/event/speakers/{speakerID}) </br>
     example-localhost:3001/event/speakers/60234641c86dee3de4e183e2 </br>
     can get the speaker id after event creation
 
 
- 5) To delete a moderators-(DELETE=> localhost:3001/event/moderators/{speakerID})
+ 5) To delete a moderators-(DELETE=> localhost:3001/event/moderators/{speakerID}) </br>
     example-localhost:3001/event/moderators/60234641c86dee3de4e183e2 </br>
     can get the moderator id after event creation
 
 
- 6) To remove a organiser-(DELETE=> localhost:3001/event/organiser/{eventId})
+ 6) To remove a organiser-(DELETE=> localhost:3001/event/organiser/{eventId}) </br>
     example-localhost:3001/event/organiser/6023463cc86dee3de4e183e1 </br>
     can get the event id after event creation </br>
     body: </br>
     {organiser:organiser name}
 
-
- 7) To remove a tag-(DELETE=> localhost:3001/event/tag/{eventId})
+ 
+ 7) To remove a tag-(DELETE=> localhost:3001/event/tag/{eventId}) </br>
     example-localhost:3001/event/tag/6023463cc86dee3de4e183e1 </br>
     can get the event id after event creation </br>
     body: </br>
